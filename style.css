@@ -1,5 +1,4 @@
 
-
 body{
     background: radial-gradient(circle, rgba(255,166,0,1) 0%, rgba(190,99,14,1) 100%);
     
@@ -66,9 +65,17 @@ a{
 
 @media(max-width:500px){
 
+    .getin{
+        position: relative;
+        left: 50px;
+    }
+    .icons{
+        position: relative;
+    right: 21px;
+    }
     .f{
         float:left;
-        width:109%;
+        width:130%;
         margin-left:-2%;
     }
 
