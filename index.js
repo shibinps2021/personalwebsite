@@ -55,7 +55,26 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
-
+function gotowhatsapp(){
+    var name=document.getElementById("form_name").value;
+    var email=document.getElementById("form_email").value;
+    var need=document.getElementById("form_need").value;
+    var message=document.getElementById("form_message").value;
+    var url="https://wa.me/7561018382?text="+
+    "Name: " +
+    name+
+    "%0a"+
+    "Email: " +
+    email+
+    "%0a"+
+    "Need: " +
+    need+
+    "%0a"+
+    "Message: " +
+    message;
+    
+   window.open(url, '_blank').focus();
+}
 
 
 
